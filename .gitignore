@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+.next/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Laravel
+/storage/*.key
+/vendor/
+composer.phar
+.phpunit.result.cache
+
+# Debug files
+*.mp4
+*.mp3
+*.webm
+debug.log
+yt-dlp.exe
+yt-dlp
+
+# Install scripts
+install.bat
+install.ps1
+install_yt_dlp.py
+composer-setup.php
+composer
